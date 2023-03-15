@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+.card-item{
+    display: flex;
+    background-color: orange;
+    border-radius: 15px;
+}
+.card-item, .carf-left{
+    width: 50%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.card-item .carf-left .card-avatar{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+}
+.card-item .carf-left .card-call{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item .carf-left .card-call{
+    max-width: 40px;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background-color: black;
+    color: white;
+
+
+
+}
+.card-item .card-right{
+    font-size: 18px;
+}
+.card-item .card-right .card-name{
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+.card-item .card-right .card-languages{
+    display: flex;
+    gap: 10px;
+}
+.card-contact .
+    max-width: 40px;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background-color: black;
+    color: white;
